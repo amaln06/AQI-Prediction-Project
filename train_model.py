@@ -47,6 +47,14 @@ print(f"R²:   {r2:.2f}")
 joblib.dump(model, "trained_model.pkl")
 print("\n✅ Model saved as trained_model.pkl")
 
+# ✅ MLflow logging
+import os
+import mlflow
+os.makedirs("mlruns", exist_ok=True)
+mlflow.set_tracking_uri("file:./mlruns")
+mlflow.set_experiment("AQI_Forecast_Models")
+
+
 # --------------------------------------------------
 # 8️⃣ Log model to MLflow (Model Registry)
 # --------------------------------------------------
