@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/CW/Desktop/AQI_Prediction_Project/mlruns/150685227862089397/5ea5aecb6fbf4d8d8d6274056a2085dd/artifacts
+end_time: 1762429983565
+entry_point_name: ''
+experiment_id: '150685227862089397'
+lifecycle_stage: active
+run_id: 5ea5aecb6fbf4d8d8d6274056a2085dd
+run_name: capricious-ox-949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762429970015
+status: 3
+tags: []
+user_id: CW
